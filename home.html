@@ -4,18 +4,27 @@
 <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lmari website</title>
+    <title>mari's website</title>
+    <link rel="icon" href="images/cat.jpg" type="image/icon type">
+
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body{
+            font-family: "Raleway";
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+        
         .header {
             background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("images/header.jpg");
             background-position: center;
             height: 100px;
             width: 100%;
             /*box model*/
-            border: 2px;
             padding-top: 50px;
-            padding-bottom: 50px;
         }
         .header h1{
             color: white;
@@ -49,12 +58,57 @@
             font-weight: bold;
             font-size: 18px;
         }
+        .container{
+            display: flex;
+        }
+
+        aside{
+            background-color: #a2ca9c;
+            font-weight: bold;
+            width: 15%;
+            padding-bottom: 20px;
+        }
+
+        aside ul{
+            list-style-type: none;
+        }
+
+        aside ul li{
+            padding: 10px 0;
+        }
+
+        aside ul li a{
+            color: white;
+            text-decoration: none;
+        }
+
+        .content {
+            flex: 1 ;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom: 20px;
+        }
+
+        h2 {
+            padding-top: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #cfe0fc;
+        }
+
+        ul{
+            padding-left: 25px;
+            line-height: 150%;
+        }
+
+        p{
+            line-height: 1.6;
+        }
     </style>
 </head>
 
 <body>
    <header class="header">
-    <h1><p><strong>hi, i am marilyn</strong></p></h1>
+    <h1><p><strong>hi! i am marilyn :D</strong></p></h1>
     
    </header>
         
@@ -65,6 +119,7 @@
 
         </ul>
     </nav>
+    <div class="container">
 
     <aside>
         <ul>
@@ -73,33 +128,40 @@
         </ul>
     </aside>
 
-    <h2>Personal Info</h2>
+    <main class="content">
+
+    <h2>about me ^0^</h2>
     <ul>
     <li><strong>age: </strong>15</li>
     <li><strong>school: </strong>chij tp</li>
-    <li><strong>subject Combi: </strong>double science</li>
-    <li><strong>cca: </strong>ncc (sea)</li>
-    <li><strong>siblings: </strong>brother</li>
+    <li><strong>subject combi: </strong>double science</li>
+    <li><strong>cca: </strong>ncc (sea) 🌊</li>
+    <li><strong>siblings: </strong>older brother</li>
+    <li><strong>fav colour: </strong>purple 🟣</li>
     </ul>
-    <h2>hobbies</h2>
+    <h2>hobbies ( •̀ ω •́ )✧</h2>
     <p>
-    i have a variety of hobbies that help me relax!
+    my hobbies!!
     <ul>
-    <li><strong>listening to music:</strong></li>
-    <li><strong>gaming:</strong></li>
-    <li><strong>traveling:</strong></li>
+    <li><strong>listening to music 🎧: </strong>i listen to music anytime and anywhere and i like listening to pop songs</li>
+    <li><strong>gaming 🎮: </strong>some of my favourite online games are roblox and pubg</li>
+    <li><strong>traveling ✈️: </strong>i like exploring different places in the world and seeing sceneries that are hard to find and see in singapore</li>
+    <li><strong>sleeping 💤: </strong>fun fact: i have slept for at least 16 hours straight before</li>
     </ul>
     </p>
-    <h2>travel goals</h2>
-    <p>
-    travel :D 💜
+    <h2>travel goals (๑•̀ㅂ•́)و✧</h2>
+    <p> 
+    i love going overseas and exploring different countries :D
     <ul>
-    <li><strong>south korea:</strong></li>
-    <li><strong>europe:</strong></li>
-    <li><strong>norway:</strong></li>
-    <li><strong>austrailia:</strong></li>
+    <li><strong>south korea</strong></li>
+    <li><strong>europe</strong></li>
+    <li><strong>norway</strong></li>
+    <li><strong>australia</strong></li>
     </ul>
     </p>
+
+</main>
+</div>
 
 
 </body>
